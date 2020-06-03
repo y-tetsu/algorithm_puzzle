@@ -53,4 +53,4 @@ class MagicSquare:
         return self.count
 
 
-print('count= =', MagicSquare(3).solve())
+print('count =', MagicSquare(3).solve())
