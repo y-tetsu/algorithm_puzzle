@@ -2,7 +2,7 @@
 """
 
 
-class nQueen:
+class nQueensProblem:
     """The n-Queens Problem by backtracking"""
     def __init__(self, n):
         self.n = n
@@ -57,5 +57,5 @@ class nQueen:
                     break
 
 
-print('(N=4) count =', nQueen(4).backtracking(), '\n')
-print('(N=8) count =', nQueen(8).backtracking(), '\n')
+print('(N=4) count =', nQueensProblem(4).backtracking(), '\n')
+print('(N=8) count =', nQueensProblem(8).backtracking(), '\n')
