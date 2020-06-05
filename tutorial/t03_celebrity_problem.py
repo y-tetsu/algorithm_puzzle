@@ -5,7 +5,7 @@ from random import randrange
 
 
 class CelebrityProblem:
-    """solve Celebrity Problem"""
+    """solve Celebrity Problem by decrease-and-conquer"""
     def __init__(self, n):
         self.group = [i for i in range(n)]
         self.celebrity = randrange(n)

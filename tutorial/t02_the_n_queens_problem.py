@@ -3,7 +3,7 @@
 
 
 class nQueensProblem:
-    """The n-Queens Problem by backtracking"""
+    """solvd The n-Queens Problem by backtracking"""
     def __init__(self, n):
         self.n = n
         self.directions = [
@@ -14,8 +14,8 @@ class nQueensProblem:
         self.board = ['_' for i in range(n*n)]
         self.control = [0 for i in range(n*n)]
 
-    def backtracking(self, x=0):
-        """backtracking"""
+    def solve(self, x=0):
+        """solve"""
         n = self.n
         if x >= n:
             for i in range(n):
@@ -26,7 +26,7 @@ class nQueensProblem:
             count = 0
             for y in [i for (i, v) in enumerate(self.control[x:n*n:n]) if v == 0]:
                 self._put(x, y)
-                count += self.backtracking(x+1)
+                count += self.solve(x+1)
                 self._remove(x, y)
             return count
 
@@ -57,5 +57,5 @@ class nQueensProblem:
                     break
 
 
-print('(N=4) count =', nQueensProblem(4).backtracking(), '\n')
-print('(N=8) count =', nQueensProblem(8).backtracking(), '\n')
+print('(N=4) count =', nQueensProblem(4).solve(), '\n')
+print('(N=8) count =', nQueensProblem(8).solve(), '\n')
