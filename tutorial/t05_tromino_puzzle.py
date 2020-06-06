@@ -27,8 +27,8 @@ class TrominoPuzzle:
             board = self._merge(size//2, self.solve(tl), self.solve(tr), self.solve(bl), self.solve(br))
 
         if size == self.size:
-            print(*[self.board[size*i:size*(i+1)] for i in range(size)], '', sep='\n')
-            print(*[board[size*i:size*(i+1)] for i in range(size)], sep='\n')
+            print('(Initial)', *[self.board[size*i:size*(i+1)] for i in range(size)], '', sep='\n')
+            print('(Result)', *[board[size*i:size*(i+1)] for i in range(size)], sep='\n')
 
         return board
 
