@@ -56,4 +56,4 @@ class nQueensProblem:
 
 
 print('(N=4) count =', nQueensProblem(4).solve(), '\n')
-print('(N=8) count =', nQueensProblem(8).solve(), '\n')
+print('(N=8) count =', nQueensProblem(8).solve())
