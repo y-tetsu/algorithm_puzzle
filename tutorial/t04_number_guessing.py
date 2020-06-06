@@ -33,4 +33,4 @@ class NumberGuessing:
 
 
 print('\nresult =', NumberGuessing(10).solve(), '\n')
-print('\nresult =', NumberGuessing(1000000).solve(), '\n')
+print('\nresult =', NumberGuessing(1000000).solve())
