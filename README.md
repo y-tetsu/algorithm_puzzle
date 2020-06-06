@@ -112,36 +112,36 @@ result = 7
 $ py -3.7 t04_number_guessing.py
 n = 10 number = 8
 
-( 1) Is the correct answer greater than 5 ? True
-( 2) Is the correct answer greater than 8 ? False
-( 3) Is the correct answer greater than 7 ? True
+( 1) greater than 5 ? True
+( 2) greater than 8 ? False
+( 3) greater than 7 ? True
 
 result = 8
 
-n = 1000000 number = 367506
+n = 1000000 number = 591009
 
-( 1) Is the correct answer greater than 500000 ? False
-( 2) Is the correct answer greater than 250000 ? True
-( 3) Is the correct answer greater than 375000 ? False
-( 4) Is the correct answer greater than 312500 ? True
-( 5) Is the correct answer greater than 343750 ? True
-( 6) Is the correct answer greater than 359375 ? True
-( 7) Is the correct answer greater than 367188 ? True
-( 8) Is the correct answer greater than 371094 ? False
-( 9) Is the correct answer greater than 369141 ? False
-(10) Is the correct answer greater than 368165 ? False
-(11) Is the correct answer greater than 367677 ? False
-(12) Is the correct answer greater than 367433 ? True
-(13) Is the correct answer greater than 367555 ? False
-(14) Is the correct answer greater than 367494 ? True
-(15) Is the correct answer greater than 367525 ? False
-(16) Is the correct answer greater than 367510 ? False
-(17) Is the correct answer greater than 367502 ? True
-(18) Is the correct answer greater than 367506 ? False
-(19) Is the correct answer greater than 367504 ? True
-(20) Is the correct answer greater than 367505 ? True
+( 1) greater than 500000 ? True
+( 2) greater than 750000 ? False
+( 3) greater than 625000 ? False
+( 4) greater than 562500 ? True
+( 5) greater than 593750 ? False
+( 6) greater than 578125 ? True
+( 7) greater than 585938 ? True
+( 8) greater than 589844 ? True
+( 9) greater than 591797 ? False
+(10) greater than 590821 ? True
+(11) greater than 591309 ? False
+(12) greater than 591065 ? False
+(13) greater than 590943 ? True
+(14) greater than 591004 ? True
+(15) greater than 591035 ? False
+(16) greater than 591020 ? False
+(17) greater than 591012 ? False
+(18) greater than 591008 ? True
+(19) greater than 591010 ? False
+(20) greater than 591009 ? False
 
-result = 367506
+result = 591009
 ```
 
 ### 5. Tromino Puzzle
