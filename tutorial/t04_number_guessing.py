@@ -23,7 +23,7 @@ class NumberGuessing:
         q = ceil(n/2)
         answer = self._ask(q)
         self.count += 1
-        print('{:>2d}'.format(self.count), 'greater than', q, '?', answer)
+        print('{:>2d}'.format(self.count), 'Is the correct answer greater than', q, '?', answer)
 
         return self.solve(q+1, high) if answer else self.solve(low, q)
 
