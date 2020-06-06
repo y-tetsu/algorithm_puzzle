@@ -11,7 +11,6 @@ class NumberGuessing:
         self.n = n
         self.number = randint(1, n)
         self.count = 0
-
         print('n =', self.n, 'number =', self.number, '\n')
 
     def solve(self, low=None, high=None):
@@ -24,7 +23,6 @@ class NumberGuessing:
         q = ceil(n/2)
         answer = self._ask_greater(q)
         self.count += 1
-
         print('{:>2d}'.format(self.count), 'greater than', q, '?', answer)
 
         return self.solve(q+1, high) if answer else self.solve(low, q)

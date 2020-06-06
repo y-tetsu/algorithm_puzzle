@@ -9,7 +9,6 @@ class CelebrityProblem:
     def __init__(self, n):
         self.group = [i for i in range(n)]
         self.celebrity = randrange(n)
-
         print('celebrity =', self.celebrity, '\n')
 
     def solve(self):
@@ -25,9 +24,7 @@ class CelebrityProblem:
         else:
             self.group.remove(b)
 
-        celebrity = self.solve()
-
-        return celebrity
+        return self.solve()
 
     def _ask(self, a, b):
         """ask A if he knows B"""

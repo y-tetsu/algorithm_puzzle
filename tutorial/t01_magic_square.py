@@ -16,27 +16,18 @@ class MagicSquare:
         for pattern in itertools.permutations([i + 1 for i in range(n*n)], n*n):
             total = sum(pattern[:n])
             for i in range(n):
-                # horizontal check
-                if sum(pattern[n*i:n*(i+1)]) != total:
+                if sum(pattern[n*i:n*(i+1)]) != total:  # horizontal
                     break
             else:
                 for i in range(n):
-                    # vertical check
-                    if sum(pattern[i:n*n:n]) != total:
+                    if sum(pattern[i:n*n:n]) != total:  # vertical
                         break
                 else:
-                    # diagonal check
                     lower_right = sum([pattern[i*(n+1)] for i in range(n)])
                     upper_right = sum([pattern[(n-1-i)*n+i] for i in range(n)])
-                    if total != lower_right or total != upper_right:
-                        continue
-
-                    # print pattern
-                    for i in range(n):
-                        print(pattern[i*n:(i+1)*n])
-                    print()
-
-                    self.count += 1
+                    if total == lower_right == upper_right:  # diagonal
+                        self.count += 1
+                        print(*[pattern[i*n:(i+1)*n] for i in range(n)], '', sep='\n')
 
         return self.count
 

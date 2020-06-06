@@ -18,9 +18,7 @@ class nQueensProblem:
         """solve"""
         n = self.n
         if x >= n:
-            for i in range(n):
-                print(self.board[n*i:n*(i+1)])
-            print()
+            print(*[list(self.board[n*i:n*(i+1)]) for i in range(n)], '', sep='\n')
             return 1
         else:
             count = 0
