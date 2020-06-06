@@ -15,7 +15,7 @@ class NumberGuessing:
 
     def solve(self, low=None, high=None):
         """solve"""
-        low, high = low if low else 1, high if high else self.n
+        low, high = 1 if not low else low, self.n if not high else high
         if low == high:
             return low
 
