@@ -106,3 +106,40 @@ celebrity = 7
 
 result = 7
 ```
+
+### 4. Number Guessing
+```
+$ py -3.7 t04_number_guessing.py
+n = 10 number = 8
+
+ 1 greater than 5 ? True
+ 2 greater than 8 ? False
+ 3 greater than 7 ? True
+
+result = 8
+
+n = 1000000 number = 648252
+
+ 1 greater than 500000 ? True
+ 2 greater than 750000 ? False
+ 3 greater than 625000 ? True
+ 4 greater than 687500 ? False
+ 5 greater than 656250 ? False
+ 6 greater than 640625 ? True
+ 7 greater than 648438 ? False
+ 8 greater than 644532 ? True
+ 9 greater than 646485 ? True
+10 greater than 647462 ? True
+11 greater than 647950 ? True
+12 greater than 648194 ? True
+13 greater than 648316 ? False
+14 greater than 648255 ? False
+15 greater than 648225 ? True
+16 greater than 648240 ? True
+17 greater than 648248 ? True
+18 greater than 648252 ? False
+19 greater than 648250 ? True
+20 greater than 648251 ? True
+
+result = 648252
+```
