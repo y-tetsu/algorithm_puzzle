@@ -21,13 +21,13 @@ class NumberGuessing:
 
         n = high + low - 1
         q = ceil(n/2)
-        answer = self._ask_greater(q)
+        answer = self._ask(q)
         self.count += 1
         print('{:>2d}'.format(self.count), 'greater than', q, '?', answer)
 
         return self.solve(q+1, high) if answer else self.solve(low, q)
 
-    def _ask_greater(self, question):
+    def _ask(self, question):
         """Ask if correct answer is greater than Question"""
         return True if question < self.number else False
 
