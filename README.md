@@ -112,36 +112,36 @@ result = 7
 $ py -3.7 t04_number_guessing.py
 n = 10 number = 8
 
- 1 greater than 5 ? True
- 2 greater than 8 ? False
- 3 greater than 7 ? True
+( 1) Is the correct answer greater than 5 ? True
+( 2) Is the correct answer greater than 8 ? False
+( 3) Is the correct answer greater than 7 ? True
 
 result = 8
 
-n = 1000000 number = 648252
+n = 1000000 number = 367506
 
- 1 greater than 500000 ? True
- 2 greater than 750000 ? False
- 3 greater than 625000 ? True
- 4 greater than 687500 ? False
- 5 greater than 656250 ? False
- 6 greater than 640625 ? True
- 7 greater than 648438 ? False
- 8 greater than 644532 ? True
- 9 greater than 646485 ? True
-10 greater than 647462 ? True
-11 greater than 647950 ? True
-12 greater than 648194 ? True
-13 greater than 648316 ? False
-14 greater than 648255 ? False
-15 greater than 648225 ? True
-16 greater than 648240 ? True
-17 greater than 648248 ? True
-18 greater than 648252 ? False
-19 greater than 648250 ? True
-20 greater than 648251 ? True
+( 1) Is the correct answer greater than 500000 ? False
+( 2) Is the correct answer greater than 250000 ? True
+( 3) Is the correct answer greater than 375000 ? False
+( 4) Is the correct answer greater than 312500 ? True
+( 5) Is the correct answer greater than 343750 ? True
+( 6) Is the correct answer greater than 359375 ? True
+( 7) Is the correct answer greater than 367188 ? True
+( 8) Is the correct answer greater than 371094 ? False
+( 9) Is the correct answer greater than 369141 ? False
+(10) Is the correct answer greater than 368165 ? False
+(11) Is the correct answer greater than 367677 ? False
+(12) Is the correct answer greater than 367433 ? True
+(13) Is the correct answer greater than 367555 ? False
+(14) Is the correct answer greater than 367494 ? True
+(15) Is the correct answer greater than 367525 ? False
+(16) Is the correct answer greater than 367510 ? False
+(17) Is the correct answer greater than 367502 ? True
+(18) Is the correct answer greater than 367506 ? False
+(19) Is the correct answer greater than 367504 ? True
+(20) Is the correct answer greater than 367505 ? True
 
-result = 648252
+result = 367506
 ```
 
 ### 5. Tromino Puzzle
