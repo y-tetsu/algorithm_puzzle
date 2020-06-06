@@ -59,7 +59,7 @@ class TrominoPuzzle:
         return board
 
     def _place(self, size, topleft, topright, bottomleft, bottomright):
-        """Place the tromino in the middle.
+        """Place the tromino in the center of the board.
            However, place it so as to avoid the place containing tromino
            on the board divided into four.
         """
