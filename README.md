@@ -5,7 +5,7 @@
 ## チュートリアル
 ### 1. Magic Square
 ```
-$ py -3.7 t01_magic_square.py
+$ python t01_magic_square.py
 (2, 7, 6)
 (9, 5, 1)
 (4, 3, 8)
@@ -43,7 +43,7 @@ count = 8
 
 ### 2. The n-Queens Problem
 ```
-$ py -3.7 t02_the_n_queens_problem.py
+$ python t02_the_n_queens_problem.py
 ['_', '_', 'Q', '_']
 ['Q', '_', '_', '_']
 ['_', '_', '_', 'Q']
@@ -90,7 +90,7 @@ $ py -3.7 t02_the_n_queens_problem.py
 
 ### 3. Celebrity Problem
 ```
-$ py -3.7 t03_celebrity_problem.py
+$ python t03_celebrity_problem.py
 celebrity = 7
 
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -109,7 +109,7 @@ result = 7
 
 ### 4. Number Guessing
 ```
-$ py -3.7 t04_number_guessing.py
+$ python t04_number_guessing.py
 n = 10 number = 8
 
 ( 1) greater than 5 ? True
@@ -146,7 +146,7 @@ result = 591009
 
 ### 5. Tromino Puzzle
 ```
-$ py -3.7 t05_tromino_puzzle.py
+$ python t05_tromino_puzzle.py
 (Initial)
 [-1, -1, -1, -1, -1, -1, -1, -1]
 [-1, -1, -1, -1, -1, -1, -1, -1]
