@@ -195,7 +195,7 @@ save
 ocean
 married
 dynamo
-reobed
+robed
 latent
 study
 indicatory
@@ -220,8 +220,8 @@ aesv         vase
 aet          ate
 aet          eat
 aet          tea
-bdeeor       reobed
 bdeor        bored
+bdeor        robed
 beflrttuy    butterfly
 beflrttuy    flutterby
 deerssst     desserts
