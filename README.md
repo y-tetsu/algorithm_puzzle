@@ -91,18 +91,18 @@ $ python t02_the_n_queens_problem.py
 ### 3. Celebrity Problem
 ```
 $ python t03_celebrity_problem.py
+group     = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 celebrity = 7
 
-[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-[0, 2, 3, 4, 5, 6, 7, 8, 9]
-[0, 3, 4, 5, 6, 7, 8, 9]
-[0, 4, 5, 6, 7, 8, 9]
-[0, 5, 6, 7, 8, 9]
-[0, 6, 7, 8, 9]
-[0, 7, 8, 9]
-[7, 8, 9]
-[7, 9]
-[7]
+0 knows 1 ? False [0, 2, 3, 4, 5, 6, 7, 8, 9]
+0 knows 2 ? False [0, 3, 4, 5, 6, 7, 8, 9]
+0 knows 3 ? False [0, 4, 5, 6, 7, 8, 9]
+0 knows 4 ? False [0, 5, 6, 7, 8, 9]
+0 knows 5 ? False [0, 6, 7, 8, 9]
+0 knows 6 ? False [0, 7, 8, 9]
+0 knows 7 ? True  [7, 8, 9]
+7 knows 8 ? False [7, 9]
+7 knows 9 ? False [7]
 
 result = 7
 ```
