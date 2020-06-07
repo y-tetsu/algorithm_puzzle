@@ -167,3 +167,69 @@ $ python t05_tromino_puzzle.py
 [25, 22, 22, 26, 30, 27, 27, 31]
 [25, 25, 26, 26, 30, 30, 31, 31]
 ```
+
+### 6. Anagram Detection
+```
+$ python t06_anagram_detection.py
+(wordbook)
+eat
+silent
+admirer
+vase
+canoe
+stressed
+talent
+dusty
+monday
+cat
+bored
+butterfly
+live
+ate
+listen
+tea
+evil
+desserts
+dictionary
+save
+ocean
+married
+dynamo
+reobed
+latent
+study
+indicatory
+act
+flutterby
+
+(signature)  (word)
+acdiinorty   dictionary
+acdiinorty   indicatory
+aceno        canoe
+aceno        ocean
+act          act
+act          cat
+adeimrr      admirer
+adeimrr      married
+admnoy       dynamo
+admnoy       monday
+aelntt       latent
+aelntt       talent
+aesv         save
+aesv         vase
+aet          ate
+aet          eat
+aet          tea
+bdeeor       reobed
+bdeor        bored
+beflrttuy    butterfly
+beflrttuy    flutterby
+deerssst     desserts
+deerssst     stressed
+dstuy        dusty
+dstuy        study
+eilnst       listen
+eilnst       silent
+eilv         evil
+eilv         live
+```
