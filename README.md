@@ -237,6 +237,7 @@ eilv         live
 ## パズル
 ### 43. Number Placement
 ```
+$ python p043_number_placement.py
 numbers = 2 5 1 0
 boxes   = [] < [] > [] < []
 result  = 0 < 5 > 1 < 2
