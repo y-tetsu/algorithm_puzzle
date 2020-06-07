@@ -9,20 +9,21 @@ class CelebrityProblem:
     def __init__(self, n):
         self.group = [i for i in range(n)]
         self.celebrity = randrange(n)
+        print('group     =', self.group)
         print('celebrity =', self.celebrity, '\n')
 
     def solve(self):
         """solve"""
-        print(self.group)
-
         if len(self.group) <= 1:
             return self.group[0]
 
         a, b = self.group[:2]
-        if self._ask(a, b):
+        answer = self._ask(a, b)
+        if answer:
             self.group.remove(a)
         else:
             self.group.remove(b)
+        print(f'{a:d} knows {b:d} ? {str(answer):5s}', self.group)
 
         return self.solve()
 
