@@ -4,8 +4,6 @@
 
 class AnagramDetection:
     """solve Anagram Detection by transform-and-concuer"""
-    BLANK = 10
-
     def __init__(self, path):
         with open(path) as f:
             self.wordbook = f.read().split()
