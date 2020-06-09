@@ -234,6 +234,29 @@ eilv         evil
 eilv         live
 ```
 
+### 7. Cash Envelopes
+```
+$ py -3.7 t07_cash_envelopes.py
+money     = 1000
+envelopes = [1, 2, 4, 8, 16, 32, 64, 128, 256, 489]
+
+(   1) pattern = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0] total =    1
+(   2) pattern = [0, 1, 0, 0, 0, 0, 0, 0, 0, 0] total =    2
+(   3) pattern = [1, 1, 0, 0, 0, 0, 0, 0, 0, 0] total =    3
+                              :
+                              :
+                              :
+( 488) pattern = [0, 0, 0, 1, 0, 1, 1, 1, 1, 0] total =  488
+( 489) pattern = [0, 0, 0, 0, 0, 0, 0, 0, 0, 1] total =  489
+( 490) pattern = [1, 0, 0, 0, 0, 0, 0, 0, 0, 1] total =  490
+                              :
+                              :
+                              :
+( 998) pattern = [1, 0, 1, 1, 1, 1, 1, 1, 1, 1] total =  998
+( 999) pattern = [0, 1, 1, 1, 1, 1, 1, 1, 1, 1] total =  999
+(1000) pattern = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] total = 1000
+```
+
 ## パズル
 ### 43. Number Placement
 ```
