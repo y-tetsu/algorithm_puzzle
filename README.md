@@ -257,6 +257,47 @@ envelopes = [1, 2, 4, 8, 16, 32, 64, 128, 256, 489]
 (1000) pattern = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] total = 1000
 ```
 
+### 8. Two Jealous Husbands
+```
++------------------------+
+| H1 H2 |<[][]>  |       |
+| W1 W2 |        |       |
++------------------------+
+crossing river   = 5
+optimal solution = 4
+
+W1W2 -> W1 -> H1H2 -> H1 -> H1W1
+W1W2 -> W1 -> H1H2 -> W2 -> W1W2
+H2W2 -> H2 -> H1H2 -> H1 -> H1W1
+H2W2 -> H2 -> H1H2 -> W2 -> W1W2
+
++------------------------------+
+| H1 H2 H3 |<[][]>  |          |
+| W1 W2 W3 |        |          |
++------------------------------+
+crossing river   = 11
+optimal solution = 4
+
+W2W3 -> W2 -> W1W2 -> W1 -> H2H3 -> H2W2 -> H1H2 -> W3 -> W2W3 -> H1 -> H1W1
+W2W3 -> W2 -> W1W2 -> W1 -> H2H3 -> H2W2 -> H1H2 -> W3 -> W2W3 -> W2 -> W1W2
+H3W3 -> H3 -> W1W2 -> W1 -> H2H3 -> H2W2 -> H1H2 -> W3 -> W2W3 -> H1 -> H1W1
+H3W3 -> H3 -> W1W2 -> W1 -> H2H3 -> H2W2 -> H1H2 -> W3 -> W2W3 -> W2 -> W1W2
+
++--------------------------------+
+| H1 H2 H3 |<[][][]>  |          |
+| W1 W2 W3 |          |          |
++--------------------------------+
+crossing river   = 5
+optimal solution = 6
+
+W2W3 -> W2 -> H1H2H3 -> W3 -> W1W2W3
+W1W2W3 -> W1 -> H1H2H3 -> H1 -> H1W1
+W1W2W3 -> W1 -> H1H2H3 -> W2 -> W1W2
+W1W2W3 -> W1 -> H1H2H3 -> W2W3 -> W1W2W3
+W1W2W3 -> W1W2 -> H1H2H3 -> W3 -> W1W2W3
+H3W3 -> H3 -> H1H2H3 -> W3 -> W1W2W3
+```
+
 ## パズル
 ### 43. Number Placement
 ```
