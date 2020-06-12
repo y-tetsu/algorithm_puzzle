@@ -259,6 +259,7 @@ envelopes = [1, 2, 4, 8, 16, 32, 64, 128, 256, 489]
 
 ### 8. Two Jealous Husbands
 ```
+$ py -3.7 t08_two_jealous_husbands.py
 +------------------------+
 | H1 H2 |<[][]>  |       |
 | W1 W2 |        |       |
