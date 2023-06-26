@@ -5,7 +5,6 @@
 [チュートリアル](https://github.com/y-tetsu/algorithm_puzzle/blob/master/tutorial/README.md)
 
 ## パズル
-### 初級パズル
 [初級パズル](https://github.com/y-tetsu/algorithm_puzzle/blob/master/elementary/README.md)
 
 ## 参考書籍
