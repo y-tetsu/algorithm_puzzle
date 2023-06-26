@@ -454,3 +454,46 @@ $ python t09_guarini's_puzzle.py
 
 result = 16
 ```
+
+### 10. Optimal Pie Cutting
+```
+$ python t10_optimal_pie_cutting.py
+-----
+n = 5
+
+* check all patterns *
+ - h = 0, v = 5, pie = (h + 1) * (v + 1) = 6
+ - h = 1, v = 4, pie = (h + 1) * (v + 1) = 10
+ - h = 2, v = 3, pie = (h + 1) * (v + 1) = 12
+ - h = 3, v = 2, pie = (h + 1) * (v + 1) = 12
+ - h = 4, v = 1, pie = (h + 1) * (v + 1) = 10
+ - h = 5, v = 0, pie = (h + 1) * (v + 1) = 6
+max_pie = 12
+
+* solve a formula *
+ - h = n // 2 = 2
+ - v = n - h  = 3
+max_pie = (h + 1) * (v + 1) = 12
+
+-----
+n = 10
+
+* check all patterns *
+ - h = 0, v = 10, pie = (h + 1) * (v + 1) = 11
+ - h = 1, v = 9, pie = (h + 1) * (v + 1) = 20
+ - h = 2, v = 8, pie = (h + 1) * (v + 1) = 27
+ - h = 3, v = 7, pie = (h + 1) * (v + 1) = 32
+ - h = 4, v = 6, pie = (h + 1) * (v + 1) = 35
+ - h = 5, v = 5, pie = (h + 1) * (v + 1) = 36
+ - h = 6, v = 4, pie = (h + 1) * (v + 1) = 35
+ - h = 7, v = 3, pie = (h + 1) * (v + 1) = 32
+ - h = 8, v = 2, pie = (h + 1) * (v + 1) = 27
+ - h = 9, v = 1, pie = (h + 1) * (v + 1) = 20
+ - h = 10, v = 0, pie = (h + 1) * (v + 1) = 11
+max_pie = 36
+
+* solve a formula *
+ - h = n // 2 = 5
+ - v = n - h  = 5
+max_pie = (h + 1) * (v + 1) = 36
+```
